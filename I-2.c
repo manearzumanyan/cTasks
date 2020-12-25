@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 int isPrime(int num){
-  int checked = 1, checking[7] = {2,3,5,7,11};
+  int checked = 1;
   if(num <= 1){
     checked = 0;
   }
